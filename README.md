@@ -3,7 +3,9 @@ aws-lambda-python-codecommit-s3-deliver
 
 This lambda package can automatic pack the CodeCommit repository to S3 bucket.
 
-### Quick start
+![Overview](doc/img/overview.png)
+
+## Quick start
 
 1. Download the aws-lambda-python-codecommit-s3-deliver .zip file
 
@@ -95,7 +97,7 @@ Here is what it looks like, click **Apply policy**
 ![IAM Policy](doc/img/iam-policy.png)
 
 
-### Test
+## Test
 
 Now this lambda function would be triggered when the CodeCommit is having the Push event. You can check the .zip file in your S3 bucket after any new push event.
 
