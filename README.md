@@ -11,7 +11,8 @@ This lambda package can automatic pack the CodeCommit repository to S3 bucket.
 
 ```bash
 git clone https://github.com/0xlen/aws-lambda-python-codecommit-s3-deliver
-zip -r aws-lambda-python-codecommit-s3-deliver.zip aws-lambda-python-codecommit-s3-deliver
+cd aws-lambda-python-codecommit-s3-deliver/
+zip -r aws-lambda-python-codecommit-s3-deliver.zip .
 ```
 
 2. Go to the [Lambda console](https://ap-northeast-1.console.aws.amazon.com/lambda/home?region=ap-northeast-1#/create/configure-function) and create a Lambda function
